@@ -1,20 +1,56 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🌐 ShivamSphere — Developer Portfolio
 
-# Run and deploy your AI Studio app
+Welcome to **ShivamSphere**, my personal developer portfolio website.
+This site showcases my projects, skills, and work as a **Full Stack Developer**.
 
-This contains everything you need to run your app locally.
+🔗 **Live Website:** https://shivamsphere.com
 
-View your app in AI Studio: https://ai.studio/apps/199eec44-db67-4955-abe0-3fd17d60367b
+---
 
-## Run Locally
+## 🚀 About
 
-**Prerequisites:**  Node.js
+ShivamSphere is a modern portfolio built to present my development work, technical skills, and projects.
+The goal of this portfolio is to demonstrate my ability to build **scalable, high-performance web applications**.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠 Tech Stack
+
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* Vercel (Deployment)
+
+---
+
+## 📂 Features
+
+* Modern responsive UI
+* Project showcase section
+* SEO optimized
+* Fast performance
+* Deployed with custom domain
+
+---
+
+## 📸 Preview
+
+Visit the live website:
+
+https://shivamsphere.com
+
+---
+
+## 📬 Contact
+
+If you'd like to collaborate or work together:
+
+* 🌐 Website: https://shivamsphere.com
+* 💼 LinkedIn: https://www.linkedin.com/in/shivam-singh-73aa0328b/
+* 🐙 GitHub: https://github.com/ShivamSpehre0074
+
+---
+
+⭐ If you like this project, consider giving it a **star** on GitHub!
+
