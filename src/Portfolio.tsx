@@ -228,11 +228,12 @@ const Hero = () => {
 };
 
 const TrustedBy = () => {
-  const logos = ['Airbnb', 'Google', 'Nike', 'Uber', 'Stripe', 'Mashable'];
+  const logos = ['React', 'Node.js', 'MongoDB', 'Next.js
+', 'AWS', 'Docker'];
   return (
     <section className="py-12 border-y border-white/5 bg-bg-secondary/50">
       <div className="max-w-7xl mx-auto px-6">
-        <p className="text-center text-xs font-bold text-text-secondary uppercase tracking-[0.2em] mb-10">Trusted By:</p>
+        <p className="text-center text-xs font-bold text-text-secondary uppercase tracking-[0.2em] mb-10">TRUSTED TECHNOLOGIES</p>
         <div className="flex flex-wrap justify-center md:justify-between items-center gap-8 md:gap-12 opacity-40 grayscale">
            {logos.map(logo => (
              <span key={logo} className="text-xl md:text-2xl font-display font-bold text-white">{logo}</span>
