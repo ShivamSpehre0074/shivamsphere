@@ -162,9 +162,9 @@ const Hero = () => {
           <div className="mt-16 grid grid-cols-2 sm:grid-cols-4 gap-8">
             {[
               { label: 'Successful Clients', value: '500+' },
-              { label: 'Projects Completed', value: '140+' },
-              { label: 'Years Experience', value: '10+' },
-              { label: 'Coding Hours', value: '1M+' },
+              { label: 'Projects Completed', value: '500+' },
+              { label: 'Years Experience', value: '5+' },
+              { label: 'Coding Hours', value: '500K+' },
             ].map((stat) => (
               <div key={stat.label}>
                 <div className="text-2xl font-display font-bold text-white mb-1">{stat.value}</div>
