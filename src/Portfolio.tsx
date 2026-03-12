@@ -338,9 +338,14 @@ const Projects = () => {
                 <p className="text-text-secondary text-sm mb-6 leading-relaxed">
                   {project.description}
                 </p>
-                <a href={project.link} className="inline-flex items-center gap-2 text-white font-bold text-sm hover:text-accent-primary transition-colors">
-                  View Project <ExternalLink size={16} />
-                </a>
+                <a 
+  href={project.link} 
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-2 text-white font-bold text-sm hover:text-accent-primary transition-colors"
+>
+  View Project <ExternalLink size={16} />
+</a>
               </div>
             </motion.div>
           ))}
