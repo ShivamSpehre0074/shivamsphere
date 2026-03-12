@@ -250,6 +250,9 @@ const TrustedBy = () => {
   );
 };
 import eazygrad from "./assets/eazygrad.png";
+import poineer from "./assets/poineer.png";
+import e2test from "./assets/e2test.png";
+import hariguru from "./assets/hariguru.png";
 const Projects = () => {
   const projects: Project[] = [
     {
@@ -276,7 +279,7 @@ const Projects = () => {
       id: 2,
       title: "Pioneer Digital",
       description: "One of the featured site while working with TheBrandWick.com (agency). Worked as a frontend developer to make the site user-interactive and responsive.",
-      image: "/src/assets/poineer.png",
+      image: poineer,
       tags: ["Javascript", "BootStrap", "css" , "sass"],
       link: "https://digi-drive.netlify.app/"
     },
@@ -284,7 +287,7 @@ const Projects = () => {
       id: 3,
       title: "E2 language",
       description: "US-based English Coach's website for guiding techies. Improved existing look and added new features and sections.",
-      image: "/src/assets/e2test.png",
+      image: e2test,
       tags: ["WordPress", "elementor", "Javascript" ,"css" ,"html" , "figma"],
       link: "https://www.e2language.com/"
     },
@@ -292,7 +295,7 @@ const Projects = () => {
       id: 4,
       title: "Harigurus",
       description: "HariGurus is a one-stop-shop for all Hindu religious, customs and traditional requirements. Built the complete site from scratch.",
-      image: "/src/assets/hariguru.png",
+      image: hariguru,
       tags: ["React.js","Express.js","Node.js","Swiper.js","MongoDB","Mongoose","CSS","Javascript"],
       link: "https://www.harigurus.com/"
     }
