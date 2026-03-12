@@ -182,14 +182,12 @@ const Hero = () => {
           className="relative hidden md:block"
         >
           <div className="relative z-10 rounded-3xl overflow-hidden border border-white/10 aspect-[4/5] bg-bg-secondary">
-            <img 
-              src="https://picsum.photos/seed/dev-portrait/800/1000" 
-              alt="Shivam Singh" 
-              className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
-              referrerPolicy="no-referrer"
-            />
-          </div>
-          
+  <img 
+    src={hero}
+    alt="Shivam Singh" 
+    className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+  />
+</div>
           {/* Floating Cards */}
           <motion.div 
             animate={{ y: [0, -10, 0] }}
