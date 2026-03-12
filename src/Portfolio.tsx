@@ -254,8 +254,10 @@ const Projects = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "CloudPeak SaaS Platform",
-      description: "A comprehensive cloud management dashboard with real-time analytics and AI-driven insights.",
+      title: "EazyGrad",
+      description: "Being a lead developer, revamped the site to a highly responsive, and interactive website. Created new features and pages. Worked as a team with product manager and ux designer.
+
+",
       image: "https://picsum.photos/seed/project1/800/600",
       tags: ["React", "Node.js", "AWS"],
       link: "#"
