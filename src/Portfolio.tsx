@@ -744,9 +744,13 @@ const CTA = () => {
             <p className="text-lg text-text-secondary mb-12 leading-relaxed">
               Ready to start? Schedule a consultation and let's shape your next big project together.
             </p>
-            <button className="glow-button px-10 py-5 bg-accent-primary text-white rounded-full font-bold text-lg">
-              Book a call
-            </button>
+           <button
+  onClick={() => window.open("https://calendly.com/shivamthakur70815/30min", "_blank")}
+  aria-label="Book a call with Shivam"
+  className="glow-button px-6 py-2.5 bg-accent-primary text-white rounded-full text-sm font-semibold"
+>
+  Book a Call
+</button>
           </div>
         </div>
       </div>
