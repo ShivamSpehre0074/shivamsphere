@@ -505,7 +505,7 @@ const AboutMe = () => {
           <div className="glass-card p-8 rounded-[32px] text-center">
             <div className="w-48 h-48 mx-auto rounded-3xl overflow-hidden mb-8 border border-white/10">
               <img 
-                src= "image:/src/assets/hero.png" 
+                src={hero}
                 alt="Shivam Singh" 
                 className="w-full h-full object-cover grayscale"
                 referrerPolicy="no-referrer"
