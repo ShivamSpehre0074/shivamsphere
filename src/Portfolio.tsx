@@ -505,7 +505,7 @@ const AboutMe = () => {
           <div className="glass-card p-8 rounded-[32px] text-center">
             <div className="w-48 h-48 mx-auto rounded-3xl overflow-hidden mb-8 border border-white/10">
               <img 
-                src="https://picsum.photos/seed/profile/400/400" 
+                src= "image:/src/assets/hero.png" 
                 alt="Shivam Singh" 
                 className="w-full h-full object-cover grayscale"
                 referrerPolicy="no-referrer"
@@ -534,7 +534,7 @@ const AboutMe = () => {
           <div>
             <h3 className="text-3xl font-display font-bold mb-6">Hi! I'm Shivam Singh,</h3>
             <p className="text-text-secondary leading-relaxed mb-8">
-              a developer passionate about building meaningful digital experiences. With a focus on clean code, thoughtful design, and scalable solutions, I help turn ideas into products that people love to use.
+              A developer passionate about building meaningful digital experiences. With a focus on clean code, thoughtful design, and scalable solutions, I help turn ideas into products that people love to use.
             </p>
             <p className="text-text-secondary leading-relaxed mb-12">
               I specialize in web development, cross-platform applications, and UI/UX design, blending creativity with technical expertise to deliver work that's both functional and visually compelling.
