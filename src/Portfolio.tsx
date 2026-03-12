@@ -84,9 +84,13 @@ const Navbar = () => {
               {link.name}
             </a>
           ))}
-          <button className="glow-button px-6 py-2.5 bg-accent-primary text-white rounded-full text-sm font-semibold">
-            Book a Call
-          </button>
+         <button
+  onClick={() => window.open("https://calendly.com/shivamthakur70815/30min", "_blank")}
+  aria-label="Book a call with Shivam"
+  className="glow-button px-6 py-2.5 bg-accent-primary text-white rounded-full text-sm font-semibold"
+>
+  Book a Call
+</button>
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -477,9 +481,13 @@ const Process = () => {
           <h3 className="text-2xl md:text-3xl font-display font-bold text-center md:text-left">
             Build reliable, user-focused products with expert code.
           </h3>
-          <button className="glow-button px-8 py-4 bg-accent-primary text-white rounded-full font-bold whitespace-nowrap">
-            Book a call
-          </button>
+          <button
+  onClick={() => window.open("https://calendly.com/shivamthakur70815/30min", "_blank")}
+  aria-label="Book a call with Shivam"
+  className="glow-button px-6 py-2.5 bg-accent-primary text-white rounded-full text-sm font-semibold"
+>
+  Book a Call
+</button>
         </div>
       </div>
     </section>
