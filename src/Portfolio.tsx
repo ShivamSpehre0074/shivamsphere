@@ -253,28 +253,25 @@ const TrustedBy = () => {
 const Projects = () => {
   const projects: Project[] = [
     {
-      {
-  id: 1,
-  title: "EazyGrad",
-  description: "Being a lead developer, revamped the site to a highly responsive and interactive website. Created new features and pages, and collaborated closely with the product manager and UX designer.",
-  image: "https://picsum.photos/seed/project1/800/600",
-  tags: [
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "MongoDB Atlas",
-    "EJS",
-    "Swiper.js",
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "Lighthouse",
-    "Figma"
-  ],
-  link: "https://www.eazygrad.com/"
-}
+      id: 1,
+      title: "EazyGrad",
+      description: "Being a lead developer, revamped the site to a highly responsive and interactive website. Created new features and pages, and collaborated closely with the product manager and UX designer.",
+      image: "https://picsum.photos/seed/project1/800/600",
+      tags: [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "MongoDB Atlas",
+        "EJS",
+        "Swiper.js",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Lighthouse",
+        "Figma"
+      ],
+      link: "https://www.eazygrad.com/"
     },
-    {
       id: 2,
       title: "Nexus E-Commerce",
       description: "High-performance headless commerce solution with custom checkout and inventory management.",
