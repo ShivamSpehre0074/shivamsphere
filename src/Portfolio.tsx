@@ -256,7 +256,7 @@ const Projects = () => {
       id: 1,
       title: "EazyGrad",
       description: "Being a lead developer, revamped the site to a highly responsive and interactive website. Created new features and pages, and collaborated closely with the product manager and UX designer.",
-      image: "https://picsum.photos/seed/project1/800/600",
+      image: "/src/assets/eazygrad.png",
       tags: [
         "Node.js",
         "Express.js",
@@ -274,27 +274,27 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Nexus E-Commerce",
-      description: "High-performance headless commerce solution with custom checkout and inventory management.",
-      image: "https://picsum.photos/seed/project2/800/600",
-      tags: ["Next.js", "Shopify", "Tailwind"],
-      link: "#"
+      title: "Pioneer Digital",
+      description: "One of the featured site while working with TheBrandWick.com (agency). Worked as a frontend developer to make the site user-interactive and responsive.",
+      image: "/src/assets/poineer.png",
+      tags: ["Javascript", "BootStrap", "css" , "sass"],
+      link: "https://digi-drive.netlify.app/"
     },
     {
       id: 3,
-      title: "Vibe Social App",
-      description: "Real-time social networking platform with encrypted messaging and dynamic content feeds.",
-      image: "https://picsum.photos/seed/project3/800/600",
-      tags: ["React Native", "Firebase", "Socket.io"],
-      link: "#"
+      title: "E2 language",
+      description: "US-based English Coach's website for guiding techies. Improved existing look and added new features and sections.",
+      image: "/src/assets/e2test.png",
+      tags: ["WordPress", "elementor", "Javascript" ,"css" ,"html" , "figma"],
+      link: "https://www.e2language.com/"
     },
     {
       id: 4,
-      title: "FinTrack Dashboard",
-      description: "Personal finance management tool with automated expense tracking and visual reporting.",
-      image: "https://picsum.photos/seed/project4/800/600",
-      tags: ["Vue.js", "D3.js", "PostgreSQL"],
-      link: "#"
+      title: "Harigurus",
+      description: "HariGurus is a one-stop-shop for all Hindu religious, customs and traditional requirements. Built the complete site from scratch.",
+      image: "/src/assets/hariguru.png",
+      tags: ["React.js","Express.js","Node.js","Swiper.js","MongoDB","Mongoose","CSS","Javascript"],
+      link: "https://www.harigurus.com/"
     }
   ];
 
