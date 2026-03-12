@@ -1,4 +1,4 @@
-import eazygrad from "./assets/eazygrad.png";
+import EazyGrad from "./assets/eazygrad.png";
 import hero from "./assets/hero.png";
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
