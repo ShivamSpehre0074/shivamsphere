@@ -1,4 +1,3 @@
-import EazyGrad from "./assets/eazygrad.png";
 import hero from "./assets/hero.png";
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
@@ -250,14 +249,14 @@ const TrustedBy = () => {
     </section>
   );
 };
-
+import eazygrad from "./assets/eazygrad.png";
 const Projects = () => {
   const projects: Project[] = [
     {
       id: 1,
       title: "EazyGrad",
       description: "Being a lead developer, revamped the site to a highly responsive and interactive website. Created new features and pages, and collaborated closely with the product manager and UX designer.",
-      image: "/src/assets/eazygrad.png",
+      image: eazygrad,
       tags: [
         "Node.js",
         "Express.js",
