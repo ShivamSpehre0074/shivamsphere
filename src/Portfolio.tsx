@@ -156,19 +156,22 @@ const Hero = () => {
             Full Stack Developer specializing in building high-performance web applications and seamless digital products with a focus on modern craftsmanship.
           </p>
           <div className="flex flex-wrap gap-4">
-            <button
-  onClick={() => window.open("https://calendly.com/shivamthakur70815/30min", "_blank")}
-  className="glow-button"
->
-  Start a Project
-</button>
-            <a
-  href="#projects"
-  className="px-8 py-4 bg-white/5 border border-white/10 text-white rounded-full font-bold hover:bg-white/10 transition-colors"
->
-  See My Work
-</a>
-          </div>
+
+  <button
+    onClick={() => window.open("https://calendly.com/shivamthakur70815/30min", "_blank")}
+    className="glow-button px-8 py-4 bg-accent-primary text-white rounded-full font-bold hover:opacity-90 transition-all"
+  >
+    Start a Project
+  </button>
+
+  <a
+    href="#projects"
+    className="px-8 py-4 bg-white/5 border border-white/10 text-white rounded-full font-bold hover:bg-white/10 transition-colors"
+  >
+    See My Work
+  </a>
+
+</div>
 
           <div className="mt-16 grid grid-cols-2 sm:grid-cols-4 gap-8">
             {[
