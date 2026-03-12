@@ -253,14 +253,26 @@ const TrustedBy = () => {
 const Projects = () => {
   const projects: Project[] = [
     {
-      id: 1,
-      title: "EazyGrad",
-      description: "Being a lead developer, revamped the site to a highly responsive, and interactive website. Created new features and pages. Worked as a team with product manager and ux designer.
-
-",
-      image: "https://picsum.photos/seed/project1/800/600",
-      tags: ["React", "Node.js", "AWS"],
-      link: "#"
+      {
+  id: 1,
+  title: "EazyGrad",
+  description: "Being a lead developer, revamped the site to a highly responsive and interactive website. Created new features and pages, and collaborated closely with the product manager and UX designer.",
+  image: "https://picsum.photos/seed/project1/800/600",
+  tags: [
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "MongoDB Atlas",
+    "EJS",
+    "Swiper.js",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Lighthouse",
+    "Figma"
+  ],
+  link: "https://www.eazygrad.com/"
+}
     },
     {
       id: 2,
