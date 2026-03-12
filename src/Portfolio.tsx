@@ -272,6 +272,7 @@ const Projects = () => {
       ],
       link: "https://www.eazygrad.com/"
     },
+    {
       id: 2,
       title: "Nexus E-Commerce",
       description: "High-performance headless commerce solution with custom checkout and inventory management.",
