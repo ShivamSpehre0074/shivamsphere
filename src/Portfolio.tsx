@@ -401,10 +401,10 @@ const Services = () => {
 
 const Stats = () => {
   const stats = [
-    { value: '10+', label: 'Years of Experience' },
-    { value: '140+', label: 'Projects Completed' },
-    { value: '500+', label: 'Satisfied Clients' },
-    { value: '1M+', label: 'Coding Hours' },
+    { value: '5+', label: 'Years of Experience' },
+    { value: '50+', label: 'Projects Completed' },
+    { value: '50+', label: 'Satisfied Clients' },
+    { value: '500K+', label: 'Coding Hours' },
   ];
 
   return (
