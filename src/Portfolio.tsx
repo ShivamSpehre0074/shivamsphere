@@ -1,3 +1,4 @@
+import hero from "./assets/hero.png";
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { 
