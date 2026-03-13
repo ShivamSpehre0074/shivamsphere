@@ -582,26 +582,26 @@ const AboutMe = () => {
             </div>
 
             <div>
-              <h4 className="text-lg font-bold mb-6 flex items-center gap-3">
-                Experience: <div className="h-px flex-1 bg-white/10" />
-              </h4>
-              <div className="space-y-4">
-                {[
-                  { role: 'Product Designer', company: 'Nexus Creative', year: '2023' },
-                  { role: 'Freelance', company: 'BrightLeaf Co', year: '2021' },
-                  { role: 'Graphic Designer', company: 'SummitWorks', year: '2024' },
-                  { role: 'UI/UX Designer', company: 'UrbanFlow Lab', year: '2022' },
-                ].map((exp, i) => (
-                  <div key={i} className="flex justify-between items-center p-4 rounded-2xl bg-white/5 border border-white/5">
-                    <div>
-                      <div className="font-bold">{exp.role}</div>
-                      <div className="text-xs text-text-secondary">{exp.company}</div>
-                    </div>
-                    <div className="text-sm font-medium text-text-secondary">{exp.year}</div>
-                  </div>
-                ))}
-              </div>
-            </div>
+  <h4 className="text-lg font-bold mb-6 flex items-center gap-3">
+    Experience: <div className="h-px flex-1 bg-white/10" />
+  </h4>
+
+  <div className="space-y-4">
+    {[
+      { role: 'Freelance Web Developer', company: 'Self-Employed', year: '2025 – Present' },
+      { role: 'Full Stack Developer – Personal Projects', company: 'Independent Projects', year: '2024 – Present' },
+      { role: 'B.Tech Computer Science', company: 'University', year: '2022 – 2026' }
+    ].map((exp, i) => (
+      <div key={i} className="flex justify-between items-center p-4 rounded-2xl bg-white/5 border border-white/5">
+        <div>
+          <div className="font-bold">{exp.role}</div>
+          <div className="text-xs text-text-secondary">{exp.company}</div>
+        </div>
+        <div className="text-sm font-medium text-text-secondary">{exp.year}</div>
+      </div>
+    ))}
+  </div>
+</div>
           </div>
         </div>
       </div>
