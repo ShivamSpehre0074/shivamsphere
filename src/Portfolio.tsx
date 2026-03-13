@@ -823,12 +823,25 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 pt-12 border-t border-white/5">
           <div className="flex gap-6">
-            {[Linkedin, Github, Instagram].map((Icon, i) => (
-              <a key={i} href="#" className="text-text-secondary hover:text-white transition-colors">
-                <Icon size={20} />
-              </a>
-            ))}
-          </div>
+  {[
+    { icon: Linkedin, link: "https://www.linkedin.com/in/shivam-singh-73aa0328b/" },
+    { icon: Github, link: "https://github.com/ShivamSpehre0074" },
+    { icon: Instagram, link: "https://www.instagram.com/shivamsphere.dev" }
+  ].map((item, i) => {
+    const Icon = item.icon;
+    return (
+      <a
+        key={i}
+        href={item.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-text-secondary hover:text-white transition-colors"
+      >
+        <Icon size={20} />
+      </a>
+    );
+  })}
+</div>
           <div className="text-xs text-text-secondary">
             © 2026 Shivam Singh. All Rights Reserved.
           </div>
