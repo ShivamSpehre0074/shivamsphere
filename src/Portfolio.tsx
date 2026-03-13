@@ -609,14 +609,14 @@ const AboutMe = () => {
   );
 };
 
-const testimonials: Testimonial[] = [
+const testimonials = [
   {
     id: 1,
     name: "Shrihari Kestur",
     role: "Founder",
     company: "Harigurus",
     text: "Shivam built a clean and modern website for Harigurus. His attention to detail and ability to deliver a fast, responsive site made the whole process smooth and professional.",
-    avatar: "https://i.pravatar.cc/150?u=shrihari",
+    avatar: "https://i.pravatar.cc/150?img=1",
     logo: "Harigurus"
   },
   {
@@ -625,7 +625,7 @@ const testimonials: Testimonial[] = [
     role: "Founder",
     company: "EazyGrad",
     text: "Working with Shivam was a great experience. He quickly understood our vision and delivered a well-designed and high-performance website for EazyGrad.",
-    avatar: "https://i.pravatar.cc/150?u=satvik",
+    avatar: "https://i.pravatar.cc/150?img=2",
     logo: "EazyGrad"
   },
   {
@@ -633,8 +633,8 @@ const testimonials: Testimonial[] = [
     name: "Kira Bragg",
     role: "English Mentor",
     company: "Independent",
-    text: "Shivam created a beautiful and user-friendly website for my work. The design was clean, professional, and exactly what I needed to present my services online.",
-    avatar: "https://i.pravatar.cc/150?u=kira",
+    text: "Shivam created a beautiful and user-friendly website for my work. The design was clean, professional and exactly what I needed.",
+    avatar: "https://i.pravatar.cc/150?img=3",
     logo: "Mentor"
   },
   {
@@ -642,8 +642,8 @@ const testimonials: Testimonial[] = [
     name: "Jafar Raza",
     role: "Web Developer",
     company: "Collaborator",
-    text: "It’s honestly hard to find a professional developer like Shivam. He understood exactly what I wanted and built the site just the way I imagined. Truly impressive work.",
-    avatar: "https://i.pravatar.cc/150?u=jafar",
+    text: "It's honestly hard to find a professional developer like Shivam. He understood exactly what I wanted and built the site just the way I imagined. Truly impressive work.",
+    avatar: "https://i.pravatar.cc/150?img=4",
     logo: "Developer"
   }
 ];
