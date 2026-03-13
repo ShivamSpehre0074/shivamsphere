@@ -551,12 +551,25 @@ const AboutMe = () => {
               Create seamless experiences across web, mobile, and desktop with one codebase.
             </p>
             <div className="flex justify-center gap-4 mb-8">
-              {[Instagram, Linkedin, Github].map((Icon, i) => (
-                <a key={i} href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-text-secondary hover:text-white hover:bg-accent-primary transition-all">
-                  <Icon size={18} />
-                </a>
-              ))}
-            </div>
+  {[
+    { icon: Instagram, link: "https://www.instagram.com/shivamsphere.dev" },
+    { icon: Linkedin, link: "https://www.linkedin.com/in/shivam-singh-73aa0328b/" },
+    { icon: Github, link: "https://github.com/ShivamSpehre0074" }
+  ].map((item, i) => {
+    const Icon = item.icon;
+    return (
+      <a
+        key={i}
+        href={item.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-text-secondary hover:text-white hover:bg-accent-primary transition-all"
+      >
+        <Icon size={18} />
+      </a>
+    );
+  })}
+</div>
             <button className="w-full py-4 bg-accent-primary text-white rounded-2xl font-bold">
               Let's Connect
             </button>
