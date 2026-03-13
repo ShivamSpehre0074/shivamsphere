@@ -609,41 +609,45 @@ const AboutMe = () => {
   );
 };
 
-const testimonials = [
-  {
-    id: 1,
-    name: "Shrihari Kestur",
-    role: "Founder",
-    company: "Harigurus",
-    text: "Shivam built a clean and modern website for Harigurus. His attention to detail and ability to deliver a fast, responsive site made the whole process smooth and professional.",
-    avatar: "https://i.pravatar.cc/150?img=1",
-    logo: "Harigurus"
-  },
-  {
-    id: 2,
-    name: "Satvik Nagpal",
-    role: "Founder",
-    company: "EazyGrad",
-    text: "Working with Shivam was a great experience. He quickly understood our vision and delivered a well-designed and high-performance website for EazyGrad.",
-    avatar: "https://i.pravatar.cc/150?img=2",
-    logo: "EazyGrad"
-  },
-  {
-    id: 3,
-    name: "Jafar Raza",
-    role: "Web Developer",
-    company: "Collaborator",
-    text: "It's honestly hard to find a professional developer like Shivam. He understood exactly what I wanted and built the site just the way I imagined. Truly impressive work.",
-    avatar: "https://i.pravatar.cc/150?img=3",
-    logo: "Developer"
-  }
-];
-   
+const Testimonials = () => {
+
+  const testimonials = [
+    {
+      id: 1,
+      name: "Shrihari Kestur",
+      role: "Founder",
+      company: "Harigurus",
+      text: "Shivam built a clean and modern website for Harigurus. His attention to detail and ability to deliver a fast, responsive site made the whole process smooth and professional.",
+      avatar: "https://i.pravatar.cc/150?img=1",
+      logo: "Harigurus"
+    },
+    {
+      id: 2,
+      name: "Satvik Nagpal",
+      role: "Founder",
+      company: "EazyGrad",
+      text: "Working with Shivam was a great experience. He quickly understood our vision and delivered a well-designed and high-performance website for EazyGrad.",
+      avatar: "https://i.pravatar.cc/150?img=2",
+      logo: "EazyGrad"
+    },
+    {
+      id: 3,
+      name: "Jafar Raza",
+      role: "Web Developer",
+      company: "Collaborator",
+      text: "It's honestly hard to find a professional developer like Shivam. He understood exactly what I wanted and built the site just the way I imagined. Truly impressive work.",
+      avatar: "https://i.pravatar.cc/150?img=3",
+      logo: "Developer"
+    }
+  ];
+
   return (
     <section id="testimonials" className="section-padding">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-20">
-          <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">Testimonials</h2>
+          <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
+            Testimonials
+          </h2>
           <p className="text-text-secondary max-w-2xl mx-auto">
             Feedback from clients and collaborators, reflecting my commitment to quality and reliability.
           </p>
@@ -652,14 +656,27 @@ const testimonials = [
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((t) => (
             <div key={t.id} className="glass-card p-8 rounded-[32px] flex flex-col">
-              <p className="text-text-secondary leading-relaxed mb-8 italic">"{t.text}"</p>
+              <p className="text-text-secondary leading-relaxed mb-8 italic">
+                "{t.text}"
+              </p>
+
               <div className="mt-auto flex items-center gap-4">
-                <img src={t.avatar} alt={t.name} className="w-12 h-12 rounded-full border border-white/10" referrerPolicy="no-referrer" />
+                <img
+                  src={t.avatar}
+                  alt={t.name}
+                  className="w-12 h-12 rounded-full border border-white/10"
+                />
+
                 <div>
                   <div className="font-bold text-sm">{t.name}</div>
-                  <div className="text-[10px] text-text-secondary uppercase tracking-wider">{t.role} @ {t.company}</div>
+                  <div className="text-[10px] text-text-secondary uppercase tracking-wider">
+                    {t.role} @ {t.company}
+                  </div>
                 </div>
-                <div className="ml-auto opacity-30 font-display font-bold text-xs">{t.logo}</div>
+
+                <div className="ml-auto opacity-30 font-display font-bold text-xs">
+                  {t.logo}
+                </div>
               </div>
             </div>
           ))}
@@ -669,6 +686,7 @@ const testimonials = [
   );
 };
 
+export default Testimonials;
 const FAQ = () => {
   const [openId, setOpenId] = useState<number | null>(1);
 
