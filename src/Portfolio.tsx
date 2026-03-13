@@ -685,8 +685,6 @@ const Testimonials = () => {
     </section>
   );
 };
-
-export default Testimonials;
 const FAQ = () => {
   const [openId, setOpenId] = useState<number | null>(1);
 
