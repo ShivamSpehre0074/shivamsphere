@@ -846,8 +846,8 @@ const Footer = () => {
             © 2026 Shivam Singh. All Rights Reserved.
           </div>
           <div className="flex gap-6 text-[10px] text-text-secondary uppercase tracking-widest font-bold">
-            <a href="#" className="hover:text-white">Privacy Policy</a>
-            <a href="#" className="hover:text-white">Terms of Service</a>
+            <a href="/privacy.html">Privacy Policy</a>
+<a href="/terms.html">Terms of Service</a>
           </div>
         </div>
       </div>
