@@ -609,37 +609,45 @@ const AboutMe = () => {
   );
 };
 
-const Testimonials = () => {
-  const testimonials: Testimonial[] = [
-    {
-      id: 1,
-      name: "Elena Matsuura",
-      role: "Finance Lead",
-      company: "Zentricon",
-      text: "When working with Shivam we had a great pleasure, his ideas were amazing and he delivered beyond our expectations.",
-      avatar: "https://i.pravatar.cc/150?u=elena",
-      logo: "Google"
-    },
-    {
-      id: 2,
-      name: "Marcus Thorne",
-      role: "CTO",
-      company: "CloudPeak",
-      text: "What impressed me most was his ability to think beyond code. He was deeply involved in UX decisions and helped us identify user pain points.",
-      avatar: "https://i.pravatar.cc/150?u=marcus",
-      logo: "Stripe"
-    },
-    {
-      id: 3,
-      name: "Sarah Jenkins",
-      role: "Founder",
-      company: "Vibe Social",
-      text: "The speed and quality of work were exceptional. Shivam is a rare talent who understands both the business and technical side of products.",
-      avatar: "https://i.pravatar.cc/150?u=sarah",
-      logo: "Airbnb"
-    }
-  ];
-
+const testimonials: Testimonial[] = [
+  {
+    id: 1,
+    name: "Shrihari Kestur",
+    role: "Founder",
+    company: "Harigurus",
+    text: "Shivam built a clean and modern website for Harigurus. His attention to detail and ability to deliver a fast, responsive site made the whole process smooth and professional.",
+    avatar: "https://i.pravatar.cc/150?u=shrihari",
+    logo: "Harigurus"
+  },
+  {
+    id: 2,
+    name: "Satvik Nagpal",
+    role: "Founder",
+    company: "EazyGrad",
+    text: "Working with Shivam was a great experience. He quickly understood our vision and delivered a well-designed and high-performance website for EazyGrad.",
+    avatar: "https://i.pravatar.cc/150?u=satvik",
+    logo: "EazyGrad"
+  },
+  {
+    id: 3,
+    name: "Kira Bragg",
+    role: "English Mentor",
+    company: "Independent",
+    text: "Shivam created a beautiful and user-friendly website for my work. The design was clean, professional, and exactly what I needed to present my services online.",
+    avatar: "https://i.pravatar.cc/150?u=kira",
+    logo: "Mentor"
+  },
+  {
+    id: 4,
+    name: "Jafar Raza",
+    role: "Web Developer",
+    company: "Collaborator",
+    text: "It’s honestly hard to find a professional developer like Shivam. He understood exactly what I wanted and built the site just the way I imagined. Truly impressive work.",
+    avatar: "https://i.pravatar.cc/150?u=jafar",
+    logo: "Developer"
+  }
+];
+   
   return (
     <section id="testimonials" className="section-padding">
       <div className="max-w-7xl mx-auto px-6">
