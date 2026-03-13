@@ -1,6 +1,10 @@
 import hero from "./assets/hero.png";
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
+
+import satvik from "./assets/satvik.jpeg";
+import jafar from "./assets/jafar.jpeg";
+import shrihari from "./assets/shrihari.jpeg";
 import { 
   Menu, 
   X, 
@@ -618,7 +622,7 @@ const Testimonials = () => {
       role: "Founder",
       company: "Harigurus",
       text: "Shivam built a clean and modern website for Harigurus. His attention to detail and ability to deliver a fast, responsive site made the whole process smooth and professional.",
-      avatar: "https://i.pravatar.cc/150?img=1",
+      avatar: shrihari,
       logo: "Harigurus"
     },
     {
@@ -627,7 +631,7 @@ const Testimonials = () => {
       role: "Founder",
       company: "EazyGrad",
       text: "Working with Shivam was a great experience. He quickly understood our vision and delivered a well-designed and high-performance website for EazyGrad.",
-      avatar: "https://i.pravatar.cc/150?img=2",
+      avatar: satvik,
       logo: "EazyGrad"
     },
     {
@@ -636,7 +640,7 @@ const Testimonials = () => {
       role: "Web Developer",
       company: "Collaborator",
       text: "It's honestly hard to find a professional developer like Shivam. He understood exactly what I wanted and built the site just the way I imagined. Truly impressive work.",
-      avatar: "https://i.pravatar.cc/150?img=3",
+      avatar: jafar,
       logo: "Developer"
     }
   ];
