@@ -588,9 +588,9 @@ const AboutMe = () => {
 
   <div className="space-y-4">
     {[
-      { role: 'Freelance Web Developer', company: 'Self-Employed', year: '2025 – Present' },
-      { role: 'Full Stack Developer – Personal Projects', company: 'Independent Projects', year: '2024 – Present' },
-      { role: 'B.Tech Computer Science', company: 'University', year: '2022 – 2026' }
+      { role: 'Freelance Web Developer', company: 'Self-Employed', year: '2023 – Present' },
+      { role: 'Full Stack Developer – Personal Projects', company: 'Independent Projects', year: '2023 – Present' },
+      { role: 'B.Tech Computer Science', company: 'Galgotias University', year: '2022 – 2026' }
     ].map((exp, i) => (
       <div key={i} className="flex justify-between items-center p-4 rounded-2xl bg-white/5 border border-white/5">
         <div>
