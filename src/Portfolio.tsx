@@ -638,7 +638,7 @@ const Testimonials = () => {
       id: 3,
       name: "Jafar Raza",
       role: "Web Developer",
-      company: "Collaborator",
+      company: "PubMatic",
       text: "It's honestly hard to find a professional developer like Shivam. He understood exactly what I wanted and built the site just the way I imagined. Truly impressive work.",
       avatar: jafar,
       logo: "Developer"
