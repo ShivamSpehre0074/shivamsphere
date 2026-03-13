@@ -630,20 +630,11 @@ const testimonials = [
   },
   {
     id: 3,
-    name: "Kira Bragg",
-    role: "English Mentor",
-    company: "Independent",
-    text: "Shivam created a beautiful and user-friendly website for my work. The design was clean, professional and exactly what I needed.",
-    avatar: "https://i.pravatar.cc/150?img=3",
-    logo: "Mentor"
-  },
-  {
-    id: 4,
     name: "Jafar Raza",
     role: "Web Developer",
     company: "Collaborator",
     text: "It's honestly hard to find a professional developer like Shivam. He understood exactly what I wanted and built the site just the way I imagined. Truly impressive work.",
-    avatar: "https://i.pravatar.cc/150?img=4",
+    avatar: "https://i.pravatar.cc/150?img=3",
     logo: "Developer"
   }
 ];
